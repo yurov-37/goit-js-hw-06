@@ -19,6 +19,7 @@ const imagesGalleryEl = document.querySelector('.gallery');
 //1 вариант//
 
 images.forEach(element => {
+  // console.log(element);
   imagesGalleryEl.insertAdjacentHTML(
     'afterbegin',
     `<li><img src = "${element.url}" alt = "${element.alt}"  width = "450" height = "250" /></li>`
@@ -29,11 +30,11 @@ images.forEach(element => {
 
 // const image = images.reduce(
 //   (string, item) =>
-//     string + `<img src = "${item.url}" alt = "${item.alt}"  width = "150" height = "100" />`,
+//     string + `<img src = "${item.url}" alt = "${item.alt}"  width = "450" height = "250" />`,
 //   ''
 // );
 // console.log(image);
-// // imagesGalleryEl.innerHTML = image;
+// imagesGalleryEl.innerHTML = image;
 
 //3 вариант//
 

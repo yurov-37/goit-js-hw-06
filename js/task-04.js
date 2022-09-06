@@ -1,7 +1,7 @@
 let counterValue = document.querySelector('#value');
 // console.log(counterValue);
 
-let valueEl = Number(document.querySelector('#value').textContent);
+let valueEl = Number(counterValue.textContent);
 // console.log(valueEl);
 
 const decrementBtn = document.querySelector('#counter').firstElementChild;

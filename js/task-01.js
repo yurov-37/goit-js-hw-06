@@ -6,6 +6,7 @@ console.log(`Number of categories: ${allFirstLiInUl.length}`);
 // 2 //
 
 allFirstLiInUl.forEach(element => {
+  // console.log(element);
   const title = element.querySelector('h2').textContent;
   const itemsLength = element.querySelectorAll('li').length;
   console.log(`Category: ${title} \n Elements: ${itemsLength}`);
